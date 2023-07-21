@@ -1,0 +1,58 @@
+.rodape {
+    padding: 15em 0 0 11.3em;
+}
+
+.rodape__container {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 40px;
+}
+
+.rodape__item {
+    padding-bottom: 20px;
+    padding-left: 35px;
+}
+
+.telefone {
+    display: flex;
+    padding: 25px 0 10px 120px;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.endereco {
+    display: flex;
+    padding: 10px 0 10px 0;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.email {
+    display: flex;
+    padding: 10px 0 0 100px;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.redes__sociais {
+    padding: 25px 0;
+    background-color: var(--branco);
+    display: flex;
+    gap: 36em;
+}
+
+.redes__sociais-texto {
+    color: var(--cinza-escuro);
+}
+
+.paragrafo {
+    padding-left: 13.5em;
+}
+
+.redes {
+    display: flex;
+    gap: 15px;
+}

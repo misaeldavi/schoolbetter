@@ -1,0 +1,31 @@
+@import url("styles/header.css");
+@import url("styles/valores.css");
+@import url("styles/popular.css");
+@import url("styles/educacao.css");
+@import url("styles/contrato.css");
+@import url("styles/professores.css");
+@import url("styles/inscricao.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-de-fundo: #26335D;
+    --branco: #FFFFFF;
+    --cinza-claro: #ECECEC;
+    --roxo-claro: #8D5CF6;
+    --fonte-principal: "Montserrat";
+    --azul-escuro: #252B42;
+    --cinza-escuro: #737373;
+    --vermelho: #E74040;
+    --cinza: #BDBDBD;
+    --laranja: #FF7B52;
+    --azul-claro: #8EC2F2;
+    --verde: #2DC071;
+}
+
+.corpo {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--branco);
+}

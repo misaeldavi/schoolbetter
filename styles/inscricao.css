@@ -1,0 +1,57 @@
+.inscricao {
+    padding-top: 20em;
+}
+
+.inscricao__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inscricao__subtitulo {
+    font-size: 14px;
+    color: var(--roxo-claro);
+    padding-bottom: 20px;
+}
+
+.inscricao__titulo {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.inscricao__texto {
+    text-align: center;
+    padding-bottom: 70px;
+    font-weight: 400;
+}
+
+.input-pai {
+    display: flex;
+}
+
+.inscricao__input {
+    width: 688px;
+    height: 58px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.inscricao__input::placeholder {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.input__botao {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 14px;
+    background-color: var(--roxo-claro);
+    color: var(--branco);
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 0 20px;
+}

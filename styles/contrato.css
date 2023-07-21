@@ -1,0 +1,200 @@
+.contrato {
+    padding: 20em 0 0 13.5em;
+}
+
+.contrato__subtitulo {
+    font-size: 14px;
+    color: var(--roxo-claro);
+    padding-bottom: 20px;
+}
+
+.contrato__titulo {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.contrato__texto {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 100px;
+}
+
+.contrato__container {
+    display: flex;
+    gap: 40px;
+}
+
+.contrato__container-elemento {
+    background-color: var(--branco);
+    padding: 50px 30px;
+}
+
+.contrato__container-pai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contrato__container-imagem {
+    padding-bottom: 40px;
+}
+
+.contrato__container-titulo {
+    color: var(--azul-escuro);
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.contrato__container-subtitulo {
+    color: var(--cinza-escuro);
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.contrato__container-preco {
+    font-size: 40px;
+    color: var(--roxo-claro);
+    padding-bottom: 10px;
+}
+
+.contrato__container-descricao {
+    color: var(--azul-claro);
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.contrato__container-texto {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cinza-escuro);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contrato__container-botao {
+    font-size: 14px;
+    color: var(--branco);
+    background-color: var(--roxo-claro);
+    padding: 15px 90px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contrato__container-lista {
+    padding-top: 40px;
+}
+
+.contrato__container-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
+.contrato__container-item-mod {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
+.contrato__container__item-texto {
+    font-size: 14px;
+    color: var(--azul-escuro);
+    line-height: 24px;
+}
+
+/* ESTILO DO FUNDO ROXO */
+
+.contrato__container-2 {
+    display: flex;
+    gap: 40px;
+}
+
+.contrato__container-elemento-2 {
+    background-color: var(--roxo-claro);
+    padding: 50px 30px;
+}
+
+.contrato__container-pai-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contrato__container-imagem-2 {
+    padding-bottom: 40px;
+}
+
+.contrato__container-titulo-2 {
+    color: var(--branco);
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.contrato__container-subtitulo-2 {
+    color: var(--branco);
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.contrato__container-preco-2 {
+    font-size: 40px;
+    color: var(--branco);
+    padding-bottom: 10px;
+}
+
+.contrato__container-descricao-2 {
+    color: var(--azul-claro);
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.contrato__container-texto-2 {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--branco);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contrato__container-botao-2 {
+    font-size: 14px;
+    color: var(--branco);
+    background-color: var(--verde);
+    padding: 15px 90px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contrato__container-lista-2 {
+    padding-top: 40px;
+}
+
+.contrato__container-item-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
+.contrato__container-item-mod-2 {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+
+.contrato__container__item-texto-2 {
+    font-size: 14px;
+    color: var(--branco);
+    line-height: 24px;
+}

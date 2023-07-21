@@ -1,0 +1,117 @@
+.cabecalho {
+    background: url("../assets/background.svg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    position: relative;
+    background-position: top;
+}
+
+.container {
+    display: flex;
+}
+
+.cabecalho__titulo {
+    font-size: 24px;
+    padding: 40px 4em 0 9em;
+}
+
+.cabecalho__lista {
+    display: flex;
+    padding: 45px 18em 0 0;
+}
+
+.lista__item {
+    padding-right: 20px;
+}
+
+.lista__link {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 14px;
+}
+
+.cabecalho__ancora {
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 14px;
+    padding: 45px 3em 0 0;
+}
+
+.cabecalho__botao {
+    padding-top: 25px;
+}
+
+.container__texto {
+    padding: 10em 0 0 13.5em;
+}
+
+.container__titulo {
+    font-size: 58px;
+    width: 50%;
+    padding: 40px 0 0 3.7em;
+    line-height: 1.3em;
+}
+
+.container__descricao {
+    font-size: 20px;
+    font-weight: 400;
+    width: 39%;
+    padding: 35px 0 0 10.8em;
+    line-height: 1.5em;
+}
+
+.container__botoes {
+    padding: 60px 0 40px 13.5em;
+    display: flex;
+    gap: 8px;
+}
+
+.container__botao {
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--branco);
+    background-color: var(--roxo-claro);
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+
+.container_botao {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--branco);
+    border: 1px solid var(--cinza-claro);
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+
+.container__banner {
+    display: flex;
+    padding: 50px 0 50px 13.7em;
+    gap: 30px;
+}
+
+.banner {
+    max-width: 320px;
+    background-color: var(--branco);
+    padding: 40px 0 40px 40px;
+}
+
+.banner__titulo {
+    color: var(--azul-escuro);
+    padding-top: 20px;
+}
+
+.banner__linha {
+    padding: 20px 0;
+    color: var(--vermelho);
+}
+
+.banner__texto {
+    color: var(--cinza-escuro);
+    font-size: 14px;
+    font-weight: 400;
+    width: 80%;
+    line-height: 1.3em;
+}
